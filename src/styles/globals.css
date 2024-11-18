@@ -1,0 +1,41 @@
+/* src/app/globals.css */
+
+/* Reset some default styles */
+
+  html,
+  body {
+    font-family: 'Inter', sans-serif; /* Using the Inter font globally */
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  /* Styling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #0d6efd;
+  }
+  
+  /* Links styling */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #0b5ed7;
+  }
+  
+  /* Button Styling */
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  /* Utility classes */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
