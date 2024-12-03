@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className=" bg-slate-400 text-white py-8">
+    <footer className="bg-slate-400 text-white py-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center px-4">
         
         {/* About Section */}
@@ -73,7 +73,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="mt-8 border-t border-black pt-4 text-center">
-        <p>© 2024 Jobzest. All rights reserved.</p>
+        <p>© 2024 Jobzest. All rights reserved.&nbsp;Developed with &lt;3 by Jobzest.</p>
       </div>
     </footer>
   );

@@ -10,7 +10,7 @@ const JobSeekers: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blue-600 mb-4">Job Seekers: Your Path to a Brighter Future</h2>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-            At Jobzest, we specialize in providing personalized career guidance, job placement, and professional growth services. Here's how we can help you achieve your career goals.
+            At Jobzest, we specialize in providing personalized career guidance, job placement, and professional growth services. Here how we can help you achieve your career goals.
           </p>
         </div>
 
