@@ -7,8 +7,9 @@ const WhyJobzest: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blue-600 mb-4">Why Choose Jobzest?</h2>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-            At Jobzest, we go beyond traditional recruitment. We are committed to providing exceptional services that cater to both job seekers and employers. Here's why you should choose us as your recruitment partner.
-          </p>
+  At Jobzest, we go beyond traditional recruitment. We are committed to providing exceptional services that cater to both job seekers and employers. Here&apos;s why you should choose us as your recruitment partner.
+</p>
+
         </div>
 
         {/* Features Grid */}
