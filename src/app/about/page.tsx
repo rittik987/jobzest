@@ -1,8 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Image from "next/image";
-import ceo from '../../../public/ceo.png'
+import ceo from '../../../public/ceo.png';
 
 const AboutUs = () => {
   return (
@@ -11,42 +10,36 @@ const AboutUs = () => {
         {/* Top Section - Image and Initial Content */}
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Image Section */}
-          <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
+          <div
             className="w-full md:w-1/2 flex justify-center"
+            style={{ transition: "all 0.8s ease", transform: "translateX(0)", opacity: "1" }}
           >
             <Image
               src={ceo} // Replace with the actual path to the CEO's image
               alt="Rahul M"
               width={300}
               height={300}
-              className=" rounded-full object-cover border-4  shadow-lg"
+              className="rounded-full object-cover border-4 shadow-lg"
             />
-          </motion.div>
+          </div>
 
           {/* Initial Content Section */}
-          <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
+          <div
             className="w-full md:w-1/2"
+            style={{ transition: "all 0.8s ease", transform: "translateX(0)", opacity: "1" }}
           >
             <h2 className="text-4xl font-extrabold text-gray-800 mb-4">RAHUL M</h2>
             <h3 className="text-2xl font-semibold text-blue-600 mb-6">CEO & Founder</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               <strong>Visionary Leader:</strong> Passionate about empowering individuals to achieve their career goals through personalized guidance and innovative strategies.
             </p>
-          </motion.div>
+          </div>
         </div>
 
         {/* Remaining Content */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8 }}
+        <div
           className="space-y-8"
+          style={{ transition: "opacity 0.8s ease", opacity: "1" }}
         >
           <div className="space-y-4">
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -80,7 +73,7 @@ const AboutUs = () => {
               <li>A dedicated team focused on your career growth.</li>
             </ul>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
