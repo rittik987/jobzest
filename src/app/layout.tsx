@@ -11,6 +11,13 @@ const inter = Inter({
   display: 'swap', // Ensures fast font swapping
 });
 
+export const metadata = {
+  title: 'Jobzest',
+  icons: {
+    icon: '/jobzestlogo.png',
+  },
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.className}> {/* Apply the Inter font globally */}
