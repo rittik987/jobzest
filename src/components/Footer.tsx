@@ -5,10 +5,9 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-slate-400 text-white py-8">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center px-4">
-        
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center px-4 gap-8">
         {/* About Section */}
-        <div className="mb-6 md:mb-0">
+        <div className="flex-1">
           <h2 className="text-2xl font-bold mb-4">Jobzest</h2>
           <p className="text-sm">
             Empowering job seekers with the best opportunities and providing companies with top talent. 
@@ -17,7 +16,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links Section */}
-        <div className="mb-6 md:mb-0">
+        <div className="flex-1">
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
@@ -36,38 +35,19 @@ const Footer = () => {
         </div>
 
         {/* Contact Info Section */}
-        <div className="mb-6 md:mb-0">
+        <div className="flex-1">
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2">
             <li>
-              <p>Email: <a href="mailto:support@jobzest.com" className="hover:text-blue-200">support@jobzest.com</a></p>
+              <p>Email: <a href="mailto:support@jobzest.com" className="hover:text-blue-200">contact@jobzest.com</a></p>
             </li>
             <li>
-              <p>Phone: <a href="tel:+1234567890" className="hover:text-blue-200">+1 234 567 890</a></p>
+              <p>Phone: <a href="tel:+1234567890" className="hover:text-blue-200">+91 8040 235 1274</a></p>
             </li>
             <li>
-              <p>Address: 123 Jobzest Street, City, Country</p>
+              <p>Address: Bangalore, Bagalur, India</p>
             </li>
           </ul>
-        </div>
-
-        {/* Social Media Section */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-          <div className="flex space-x-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200">
-              <img src="/facebook-icon.svg" alt="Facebook" className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200">
-              <img src="/twitter-icon.svg" alt="Twitter" className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200">
-              <img src="/linkedin-icon.svg" alt="LinkedIn" className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200">
-              <img src="/instagram-icon.svg" alt="Instagram" className="h-6 w-6" />
-            </a>
-          </div>
         </div>
       </div>
 
